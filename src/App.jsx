@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/hero'
+import Main from './components/Main'
 import TrustedBy from './components/TrustedBy'
 import Services from './components/Services'
 import OurWork from './components/OurWork'
@@ -57,7 +57,7 @@ localStorage.getItem('theme'): 'light')
     <div className='dark:bg-black relative'>
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
-      <Hero />
+      <Main />
       <TrustedBy />
       <Services />
       <OurWork />
